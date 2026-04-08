@@ -11,11 +11,11 @@
 
 Porozmawiaj z nami na: [Discord](https://discord.gg/nDceKgxnkV) | [Twitter](https://twitter.com/STRemote) | [Reddit](https://www.reddit.com/r/STRemote) | [YouTube](https://www.youtube.com/@STRemote)
 
-[![STRemote Server Pro](https://img.shields.io/badge/STRemote%20Server%20Pro-Zaawansowane%20Funkcje-blue)](https://STRemote.com/pricing.html)
+[![STRemote Server Pro](https://img.shields.io/badge/STRemote%20Server%20Pro-Zaawansowane%20Funkcje-blue)](https://rustdesk.com/pricing.html)
 
 ## O projekcie
 
-STRemote to wieloplatformowe oprogramowanie do zdalnego pulpitu, napisane w języku Rust, zaprojektowane z myślą o prostocie wdrożenia, bezpieczeństwie i pełnej kontroli użytkownika nad danymi. Aplikacja działa od razu po uruchomieniu i nie wymaga skomplikowanej konfiguracji. Możesz skorzystać z naszego darmowego serwera publicznego, [skonfigurować własny](https://STRemote.com/server), lub [napisać własny serwer](https://github.com/rustdesk/STRemote-server-demo).
+STRemote to wieloplatformowe oprogramowanie do zdalnego pulpitu, napisane w języku Rust, zaprojektowane z myślą o prostocie wdrożenia, bezpieczeństwie i pełnej kontroli użytkownika nad danymi. Aplikacja działa od razu po uruchomieniu i nie wymaga skomplikowanej konfiguracji. Możesz skorzystać z naszego darmowego serwera publicznego, [skonfigurować własny](https://rustdesk.com/server), lub [napisać własny serwer](https://github.com/rustdesk/STRemote-server-demo).
 
 ![image](https://user-images.githubusercontent.com/71636191/171661982-430285f0-2e12-4b1d-9957-4a58e375304d.png) 
 

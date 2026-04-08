@@ -1081,7 +1081,7 @@ fn get_api_server_(api: String, custom: String) -> String {
             return format!("http://{}", s);
         }
     }
-    "https://admin.STRemote.com".to_owned()
+    "https://admin.rustdesk.com".to_owned()
 }
 
 #[inline]
@@ -2764,16 +2764,16 @@ mod tests {
     #[test]
     fn test_is_public() {
         // Test URLs containing "STRemote.com/"
-        assert!(is_public("https://STRemote.com/"));
+        assert!(is_public("https://rustdesk.com/"));
         assert!(is_public("https://www.STRemote.com/"));
         assert!(is_public("https://api.STRemote.com/v1"));
         assert!(is_public("https://API.STRemote.COM/v1"));
-        assert!(is_public("https://STRemote.com/path"));
+        assert!(is_public("https://rustdesk.com/path"));
 
         // Test URLs ending with "STRemote.com"
         assert!(is_public("STRemote.com"));
-        assert!(is_public("https://STRemote.com"));
-        assert!(is_public("https://STRemote.com"));
+        assert!(is_public("https://rustdesk.com"));
+        assert!(is_public("https://rustdesk.com"));
         assert!(is_public("http://www.STRemote.com"));
         assert!(is_public("https://api.STRemote.com"));
 
@@ -2782,7 +2782,7 @@ mod tests {
         assert!(!is_public("https://custom-server.com"));
         assert!(!is_public("http://192.168.1.1"));
         assert!(!is_public("localhost"));
-        assert!(!is_public("https://STRemote.computer.com"));
+        assert!(!is_public("https://rustdesk.computer.com"));
         assert!(!is_public("STRemote.comhello.com"));
     }
 
@@ -2801,8 +2801,8 @@ mod tests {
             "https://admin.example.com"
         ));
         assert!(!should_use_tcp_proxy_for_api_url(
-            "https://admin.STRemote.com/api/login",
-            "https://admin.STRemote.com"
+            "https://admin.rustdesk.com/api/login",
+            "https://admin.rustdesk.com"
         ));
         assert!(!should_use_tcp_proxy_for_api_url(
             "https://admin.example.com/api/login",

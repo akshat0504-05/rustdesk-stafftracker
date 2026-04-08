@@ -11,9 +11,9 @@
 
 私たちと話す: [Discord](https://discord.gg/nDceKgxnkV) | [Twitter](https://twitter.com/STRemote) | [Reddit](https://www.reddit.com/r/STRemote) | [YouTube](https://www.youtube.com/@STRemote)
 
-[![STRemote Server Pro](https://img.shields.io/badge/STRemote%20Server%20Pro-%E9%AB%98%E5%BA%A6%E3%81%AA%E6%A9%9F%E8%83%BD-blue)](https://STRemote.com/pricing.html)
+[![STRemote Server Pro](https://img.shields.io/badge/STRemote%20Server%20Pro-%E9%AB%98%E5%BA%A6%E3%81%AA%E6%A9%9F%E8%83%BD-blue)](https://rustdesk.com/pricing.html)
 
-Rustで書かれた、設定不要ですぐに使えるリモートデスクトップソフトウェアです。自分のデータを完全にコントロールでき、セキュリティの心配もありません。私たちのランデブー/リレーサーバを使うことも、[自分でサーバーをセットアップする](https://STRemote.com/server) ことも、 [自分でランデブー/リレーサーバを作成する](https://github.com/rustdesk/STRemote-server-demo)こともできます。
+Rustで書かれた、設定不要ですぐに使えるリモートデスクトップソフトウェアです。自分のデータを完全にコントロールでき、セキュリティの心配もありません。私たちのランデブー/リレーサーバを使うことも、[自分でサーバーをセットアップする](https://rustdesk.com/server) ことも、 [自分でランデブー/リレーサーバを作成する](https://github.com/rustdesk/STRemote-server-demo)こともできます。
 
 ![image](https://user-images.githubusercontent.com/71636191/171661982-430285f0-2e12-4b1d-9957-4a58e375304d.png)
 
@@ -52,7 +52,7 @@ Sciter dynamic libraryを事前にダウンロードしてください。
 
 - `cargo run`を実行します。
 
-## [ビルド](https://STRemote.com/docs/en/dev/build/)
+## [ビルド](https://rustdesk.com/docs/en/dev/build/)
 
 ## Linuxでのビルド方法
 

@@ -11,12 +11,12 @@
 
 [Discord](https://discord.gg/nDceKgxnkV) | [Twitter](https://twitter.com/STRemote) | [Reddit](https://www.reddit.com/r/STRemote) | [YouTube](https://www.youtube.com/@STRemote) :تواصل معنا عبر
 
-[![STRemote Server Pro](https://img.shields.io/badge/STRemote%20Server%20Pro-%D8%A7%D9%84%D9%85%D9%8A%D8%B2%D8%A7%D8%AA%20%D8%A7%D9%84%D9%85%D8%AA%D9%82%D8%AF%D9%85%D8%A9-blue)](https://STRemote.com/pricing.html)
+[![STRemote Server Pro](https://img.shields.io/badge/STRemote%20Server%20Pro-%D8%A7%D9%84%D9%85%D9%8A%D8%B2%D8%A7%D8%AA%20%D8%A7%D9%84%D9%85%D8%AA%D9%82%D8%AF%D9%85%D8%A9-blue)](https://rustdesk.com/pricing.html)
 
 .Rustبرنامج آخر لسطح المكتب عن بعد، مكتوب بـ
 يعمل خارج الصندوق، لا حاجة إلى إعدادات. لديك سيطرة كاملة على بياناتك، دون مخاوف بشأن الأمن. يمكنك استخدام خادم
   الخاص بنا rendezvous/relay
-[جهز لنفسك واحدا](https://STRemote.com/server), أو
+[جهز لنفسك واحدا](https://rustdesk.com/server), أو
 [خاص بك rendezvous/relay أكتب خادم](https://github.com/rustdesk/STRemote-server-demo).
 
 ![image](https://user-images.githubusercontent.com/71636191/171661982-430285f0-2e12-4b1d-9957-4a58e375304d.png)
@@ -50,7 +50,7 @@
 
 - run `cargo run`
 
-## [البناء](https://STRemote.com/docs/en/dev/build/)
+## [البناء](https://rustdesk.com/docs/en/dev/build/)
 
 ## Linux
 

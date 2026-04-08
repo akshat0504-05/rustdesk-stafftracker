@@ -3,7 +3,7 @@ Version:    1.4.6
 Release:    0
 Summary:    RPM package
 License:    GPL-3.0
-URL:        https://STRemote.com
+URL:        https://rustdesk.com
 Vendor:     STRemote <info@STRemote.com>
 Requires:   gtk3 libxcb libXfixes alsa-lib libva pam gstreamer1-plugins-base
 Recommends: libayatana-appindicator-gtk3 libxdo

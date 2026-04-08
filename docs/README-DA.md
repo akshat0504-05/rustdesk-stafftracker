@@ -11,9 +11,9 @@
 
 Chat med os: [Discord](https://discord.gg/nDceKgxnkV) | [Twitter](https://twitter.com/STRemote) | [Reddit](https://www.reddit.com/r/STRemote) | [YouTube](https://www.youtube.com/@STRemote)
 
-[![STRemote Server Pro](https://img.shields.io/badge/STRemote%20Server%20Pro-Avancerede%20Funktioner-blue)](https://STRemote.com/pricing.html)
+[![STRemote Server Pro](https://img.shields.io/badge/STRemote%20Server%20Pro-Avancerede%20Funktioner-blue)](https://rustdesk.com/pricing.html)
 
-Endnu en fjernskrivebordssoftware, skrevet i Rust. Fungerer ud af æsken, ingen konfiguration påkrævet. Du har fuld kontrol over dine data uden bekymringer om sikkerhed. Du kan bruge vores rendezvous/relay-server, [opsætte din egen](https://STRemote.com/server), eller [skrive din egen rendezvous/relay-server](https://github.com/rustdesk/STRemote- server-demo).
+Endnu en fjernskrivebordssoftware, skrevet i Rust. Fungerer ud af æsken, ingen konfiguration påkrævet. Du har fuld kontrol over dine data uden bekymringer om sikkerhed. Du kan bruge vores rendezvous/relay-server, [opsætte din egen](https://rustdesk.com/server), eller [skrive din egen rendezvous/relay-server](https://github.com/rustdesk/STRemote- server-demo).
 
 STRemote hilser bidrag fra alle velkommen. Se [`docs/CONTRIBUTING.md`](CONTRIBUTING.md) for at få hjælp til at komme i gang.
 
@@ -40,7 +40,7 @@ Hent venligst sciter dynamic library selv.
 
 - kør `cargo run`
 
-## [Byg](https://STRemote.com/docs/en/dev/build/)
+## [Byg](https://rustdesk.com/docs/en/dev/build/)
 
 ## Sådan bygger du på Linux
 
