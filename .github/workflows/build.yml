@@ -1,4 +1,4 @@
-name: Build StaffTracker Remote
+name: Build STRemote
 
 on:
   push:

@@ -1,11 +1,11 @@
 [Desktop Entry]
-Name=RustDesk
+Name=STRemote
 NoDisplay=true
-MimeType=x-scheme-handler/rustdesk;
-TryExec=rustdesk
-Exec=rustdesk %u
-Icon=rustdesk
+MimeType=x-scheme-handler/STRemote;
+TryExec=STRemote
+Exec=STRemote %u
+Icon=STRemote
 Terminal=false
 Type=Application
 StartupNotify=false
-StartupWMClass=rustdesk
+StartupWMClass=STRemote
