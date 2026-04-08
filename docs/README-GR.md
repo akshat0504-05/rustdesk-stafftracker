@@ -6,24 +6,24 @@
   <a href="#Δομή-φακέλων">Δομή</a> •
   <a href="#Στιγμιότυπα">Στιγμιότυπα</a><br>
   [<a href="../README.md">English</a>] | [<a href="README-UA.md">Українська</a>] | [<a href="README-CS.md">česky</a>] | [<a href="README-ZH.md">中文</a>] | | [<a href="README-HU.md">Magyar</a>] | [<a href="README-ES.md">Español</a>] | [<a href="README-FA.md">فارسی</a>] | [<a href="README-FR.md">Français</a>] | [<a href="README-DE.md">Deutsch</a>] | [<a href="README-PL.md">Polski</a>] | [<a href="README-ID.md">Indonesian</a>] | [<a href="README-FI.md">Suomi</a>] | [<a href="README-ML.md">മലയാളം</a>] | [<a href="README-JP.md">日本語</a>] | [<a href="README-NL.md">Nederlands</a>] | [<a href="README-IT.md">Italiano</a>] | [<a href="README-RU.md">Русский</a>] | [<a href="README-PTBR.md">Português (Brasil)</a>] | [<a href="README-EO.md">Esperanto</a>] | [<a href="README-KR.md">한국어</a>] | [<a href="README-AR.md">العربي</a>] | [<a href="README-VN.md">Tiếng Việt</a>] | [<a href="README-DA.md">Dansk</a>]<br>
-  <b>Χρειαζόμαστε τη βοήθειά σας για να μεταφράσουμε αυτό το αρχείο README, το <a href="https://github.com/STRemote/STRemote/tree/master/src/lang">STRemote UI</a> και το <a href="https://github.com/STRemote/doc.STRemote.com">Doc</a> στη μητρική σας γλώσσα</b>
+  <b>Χρειαζόμαστε τη βοήθειά σας για να μεταφράσουμε αυτό το αρχείο README, το <a href="https://github.com/rustdesk/STRemote/tree/master/src/lang">STRemote UI</a> και το <a href="https://github.com/rustdesk/doc.STRemote.com">Doc</a> στη μητρική σας γλώσσα</b>
 </p>
 
 Επικοινωνήστε μαζί μας μέσω: [Discord](https://discord.gg/nDceKgxnkV) | [Twitter](https://twitter.com/STRemote) | [Reddit](https://www.reddit.com/r/STRemote) | [YouTube](https://www.youtube.com/@STRemote)
 
 [![STRemote Server Pro](https://img.shields.io/badge/STRemote%20Server%20Pro-%CE%A0%CF%81%CE%BF%CE%B7%CE%B3%CE%BC%CE%AD%CE%BD%CE%B5%CF%82%20%CE%94%CF%85%CE%BD%CE%B1%CF%84%CF%8C%CF%84%CE%B7%CF%84%CE%B5%CF%82-blue)](https://STRemote.com/pricing.html)
 
-Ένα λογισμικό απομακρυσμένης επιφάνειας εργασίας, γραμμένο σε γλώσσα Rust. Δεν χρειάζεται κάποια παραμετροποίηση, λειτουργεί αμέσως μετά την εγκατάσταση. Έχετε τον πλήρη έλεγχο των δεδομένων σας, χωρίς να ανησυχείτε για την ασφάλειά τους. Μπορείτε να χρησιμοποιήσετε τους προκαθορισμένους διακομιστές rendezvous/αναμετάδοσης, [να εγκαταστήσετε τον δικό σας διακομιστή](https://STRemote.com/server), ή [να αναπτύξετε ένα δικό σας διακομιστή rendezvous/αναμετάδοσης](https://github.com/STRemote/STRemote-server-demo).
+Ένα λογισμικό απομακρυσμένης επιφάνειας εργασίας, γραμμένο σε γλώσσα Rust. Δεν χρειάζεται κάποια παραμετροποίηση, λειτουργεί αμέσως μετά την εγκατάσταση. Έχετε τον πλήρη έλεγχο των δεδομένων σας, χωρίς να ανησυχείτε για την ασφάλειά τους. Μπορείτε να χρησιμοποιήσετε τους προκαθορισμένους διακομιστές rendezvous/αναμετάδοσης, [να εγκαταστήσετε τον δικό σας διακομιστή](https://STRemote.com/server), ή [να αναπτύξετε ένα δικό σας διακομιστή rendezvous/αναμετάδοσης](https://github.com/rustdesk/STRemote-server-demo).
 
 ![image](https://user-images.githubusercontent.com/71636191/171661982-430285f0-2e12-4b1d-9957-4a58e375304d.png)
 
 Το STRemote ενθαρρύνει τη συνεισφορά όλων. Διαβάστε το [`docs/CONTRIBUTING.md`](CONTRIBUTING.md) για βοήθεια στο πως να ξεκινήσετε.
 
-[**Συχνές ερωτήσεις**](https://github.com/STRemote/STRemote/wiki/FAQ)
+[**Συχνές ερωτήσεις**](https://github.com/rustdesk/STRemote/wiki/FAQ)
 
-[**Κατεβάστε τα αρχεία**](https://github.com/STRemote/STRemote/releases)
+[**Κατεβάστε τα αρχεία**](https://github.com/rustdesk/STRemote/releases)
 
-[**NIGHTLY BUILD**](https://github.com/STRemote/STRemote/releases/tag/nightly)
+[**NIGHTLY BUILD**](https://github.com/rustdesk/STRemote/releases/tag/nightly)
 
 [<img src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png"
     alt="Get it on F-Droid"
@@ -109,7 +109,7 @@ cd
 ```sh
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 source $HOME/.cargo/env
-git clone https://github.com/STRemote/STRemote
+git clone https://github.com/rustdesk/STRemote
 cd STRemote
 mkdir -p target/debug
 wget https://raw.githubusercontent.com/c-smile/sciter-sdk/master/bin.lnx/x64/libsciter-gtk.so
@@ -122,7 +122,7 @@ VCPKG_ROOT=$HOME/vcpkg cargo run
 Ξεκινήστε κλωνοποιώντας το αποθετήριο και κάνοντας build το docker container:
 
 ```sh
-git clone https://github.com/STRemote/STRemote
+git clone https://github.com/rustdesk/STRemote
 cd STRemote
 docker build -t "STRemote-builder" .
 ```
@@ -149,16 +149,16 @@ target/release/STRemote
 
 ## Δομή φακέλων
 
-- **[libs/hbb_common](https://github.com/STRemote/STRemote/tree/master/libs/hbb_common)**: video codec, config, tcp/udp wrapper, protobuf, fs functions for file transfer, and some other utility functions
-- **[libs/scrap](https://github.com/STRemote/STRemote/tree/master/libs/scrap)**: screen capture
-- **[libs/enigo](https://github.com/STRemote/STRemote/tree/master/libs/enigo)**: platform specific keyboard/mouse control
-- **[src/ui](https://github.com/STRemote/STRemote/tree/master/src/ui)**: GUI
-- **[src/server](https://github.com/STRemote/STRemote/tree/master/src/server)**: audio/clipboard/input/video services, and network connections
-- **[src/client.rs](https://github.com/STRemote/STRemote/tree/master/src/client.rs)**: start a peer connection
-- **[src/rendezvous_mediator.rs](https://github.com/STRemote/STRemote/tree/master/src/rendezvous_mediator.rs)**: Communicate with [STRemote-server](https://github.com/STRemote/STRemote-server), wait for remote direct (TCP hole punching) or relayed connection
-- **[src/platform](https://github.com/STRemote/STRemote/tree/master/src/platform)**: platform specific code
-- **[flutter](https://github.com/STRemote/STRemote/tree/master/flutter)**: Flutter code for mobile
-- **[flutter/web/js](https://github.com/STRemote/STRemote/tree/master/flutter/web/js)**: JavaScript for Flutter web client
+- **[libs/hbb_common](https://github.com/rustdesk/STRemote/tree/master/libs/hbb_common)**: video codec, config, tcp/udp wrapper, protobuf, fs functions for file transfer, and some other utility functions
+- **[libs/scrap](https://github.com/rustdesk/STRemote/tree/master/libs/scrap)**: screen capture
+- **[libs/enigo](https://github.com/rustdesk/STRemote/tree/master/libs/enigo)**: platform specific keyboard/mouse control
+- **[src/ui](https://github.com/rustdesk/STRemote/tree/master/src/ui)**: GUI
+- **[src/server](https://github.com/rustdesk/STRemote/tree/master/src/server)**: audio/clipboard/input/video services, and network connections
+- **[src/client.rs](https://github.com/rustdesk/STRemote/tree/master/src/client.rs)**: start a peer connection
+- **[src/rendezvous_mediator.rs](https://github.com/rustdesk/STRemote/tree/master/src/rendezvous_mediator.rs)**: Communicate with [STRemote-server](https://github.com/rustdesk/STRemote-server), wait for remote direct (TCP hole punching) or relayed connection
+- **[src/platform](https://github.com/rustdesk/STRemote/tree/master/src/platform)**: platform specific code
+- **[flutter](https://github.com/rustdesk/STRemote/tree/master/flutter)**: Flutter code for mobile
+- **[flutter/web/js](https://github.com/rustdesk/STRemote/tree/master/flutter/web/js)**: JavaScript for Flutter web client
 
 ## Στιγμιότυπα
 

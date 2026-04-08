@@ -6,7 +6,7 @@
   <a href="#struttura-dei-file">Struttura</a> •
   <a href="#schermate">Schermate</a><br>
   [<a href="../README.md">English</a>] | [<a href="README-UA.md">Українська</a>] | [<a href="README-CS.md">česky</a>] | [<a href="README-ZH.md">中文</a>] | [<a href="README-HU.md">Magyar</a>] | [<a href="README-ES.md">Español</a>] | [<a href="README-FA.md">فارسی</a>] | [<a href="README-FR.md">Français</a>] | [<a href="README-DE.md">Deutsch</a>] | [<a href="README-PL.md">Polski</a>] | [<a href="README-ID.md">Indonesian</a>] | [<a href="README-FI.md">Suomi</a>] | [<a href="README-ML.md">മലയാളം</a>] | [<a href="README-JP.md">日本語</a>] | [<a href="README-NL.md">Nederlands</a>] | [<a href="README-RU.md">Русский</a>] | [<a href="README-PTBR.md">Português (Brasil)</a>] | [<a href="README-EO.md">Esperanto</a>] | [<a href="README-KR.md">한국어</a>] | [<a href="README-AR.md">العربي</a>] | [<a href="README-VN.md">Tiếng Việt</a>] | [<a href="README-DA.md">Dansk</a>] | [<a href="README-GR.md">Ελληνικά</a>] | [<a href="README-TR.md">Türkçe</a>]<br>
-  <b>Abbiamo bisogno del tuo aiuto per tradurre questo file README e la <a href="https://github.com/STRemote/STRemote/tree/master/src/lang">UI STRemote</a> nella tua lingua nativa</b>
+  <b>Abbiamo bisogno del tuo aiuto per tradurre questo file README e la <a href="https://github.com/rustdesk/STRemote/tree/master/src/lang">UI STRemote</a> nella tua lingua nativa</b>
 </p>
 
 Chatta con noi su: [Discord](https://discord.gg/nDceKgxnkV) | [Twitter](https://twitter.com/STRemote) | [Reddit](https://www.reddit.com/r/STRemote) | [YouTube](https://www.youtube.com/@STRemote)
@@ -15,17 +15,17 @@ Chatta con noi su: [Discord](https://discord.gg/nDceKgxnkV) | [Twitter](https://
 
 [![Bounties aperti](https://img.shields.io/endpoint?url=https%3A%2F%2Fconsole.algora.io%2Fapi%2Fshields%2FSTRemote%2Fbounties%3Fstatus%3Dopen)](https://console.algora.io/org/STRemote/bounties?status=open)
 
-Ancora un altro software per il controllo remoto del desktop, scritto in Rust. Funziona immediatamente, nessuna configurazione richiesta. Hai il pieno controllo dei tuoi dati, senza preoccupazioni per la sicurezza. Puoi usare il nostro server rendezvous/relay, [configurare il tuo server](https://STRemote.com/server) o [realizzare il tuo server rendezvous/relay](https://github.com/STRemote/STRemote-server-demo).
+Ancora un altro software per il controllo remoto del desktop, scritto in Rust. Funziona immediatamente, nessuna configurazione richiesta. Hai il pieno controllo dei tuoi dati, senza preoccupazioni per la sicurezza. Puoi usare il nostro server rendezvous/relay, [configurare il tuo server](https://STRemote.com/server) o [realizzare il tuo server rendezvous/relay](https://github.com/rustdesk/STRemote-server-demo).
 
 ![image](https://user-images.githubusercontent.com/71636191/171661982-430285f0-2e12-4b1d-9957-4a58e375304d.png)
 
 STRemote accoglie il contributo di tutti. Per ulteriori informazioni su come iniziare a contribuire, vedi [CONTRIBUTING.md](CONTRIBUTING-IT.md).
 
-[**FAQ**](https://github.com/STRemote/STRemote/wiki/FAQ)
+[**FAQ**](https://github.com/rustdesk/STRemote/wiki/FAQ)
 
-[**SCARICA PROGRAMMA**](https://github.com/STRemote/STRemote/releases)
+[**SCARICA PROGRAMMA**](https://github.com/rustdesk/STRemote/releases)
 
-[**SCARICA NIGHTLY**](https://github.com/STRemote/STRemote/releases/tag/nightly)
+[**SCARICA NIGHTLY**](https://github.com/rustdesk/STRemote/releases/tag/nightly)
 
 [<img src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png"
     alt="Get it on F-Droid"
@@ -33,7 +33,7 @@ STRemote accoglie il contributo di tutti. Per ulteriori informazioni su come ini
 
 ## Dipendenze
 
-Le versioni desktop utilizzano Flutter o Sciter (deprecato) per l'interfaccia utente, questo tutorial è solo per Sciter, poiché è più facile per iniziare. Controlla il nostro [CI](https://github.com/STRemote/STRemote/blob/master/.github/workflows/flutter-build.yml) per la compilazione della versione Flutter.
+Le versioni desktop utilizzano Flutter o Sciter (deprecato) per l'interfaccia utente, questo tutorial è solo per Sciter, poiché è più facile per iniziare. Controlla il nostro [CI](https://github.com/rustdesk/STRemote/blob/master/.github/workflows/flutter-build.yml) per la compilazione della versione Flutter.
 
 Scarica la libreria dinamica Sciter.
 
@@ -112,7 +112,7 @@ cd
 ```sh
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 source $HOME/.cargo/env
-git clone https://github.com/STRemote/STRemote
+git clone https://github.com/rustdesk/STRemote
 cd STRemote
 mkdir -p target/debug
 wget https://raw.githubusercontent.com/c-smile/sciter-sdk/master/bin.lnx/x64/libsciter-gtk.so
@@ -125,7 +125,7 @@ VCPKG_ROOT=$HOME/vcpkg cargo run
 Clona il repository e compila i container docker:
 
 ```sh
-git clone https://github.com/STRemote/STRemote
+git clone https://github.com/rustdesk/STRemote
 cd STRemote
 docker build -t "STRemote-builder" .
 ```
@@ -152,17 +152,17 @@ Assicurati di eseguire questi comandi dalla radice del repository STRemote, altr
 
 ## Struttura dei file
 
-- **[libs/hbb_common](https://github.com/STRemote/STRemote/tree/master/libs/hbb_common)**: codec video, config, wrapper tcp/udp, protobuf, funzioni per il trasferimento file, e altre funzioni utili.
-- **[libs/scrap](https://github.com/STRemote/STRemote/tree/master/libs/scrap)**: cattura dello schermo
-- **[libs/enigo](https://github.com/STRemote/STRemote/tree/master/libs/enigo)**: controllo tastiera/mouse specifico della piattaforma
-- **[libs/clipboard](https://github.com/STRemote/STRemote/tree/master/libs/clipboard)**: implementazione del copia e incolla dei file per Windows, Linux, macOS.
-- **[src/ui](https://github.com/STRemote/STRemote/tree/master/src/ui)**: Sciter UI obsoleto (deprecato)
-- **[src/server](https://github.com/STRemote/STRemote/tree/master/src/server)**: servizi audio/appunti/input/video e connessioni di rete
-- **[src/client.rs](https://github.com/STRemote/STRemote/tree/master/src/client.rs)**: avvio di una connessione peer
-- **[src/rendezvous_mediator.rs](https://github.com/STRemote/STRemote/tree/master/src/rendezvous_mediator.rs)**: comunica con [STRemote-server](https://github.com/STRemote/STRemote-server), attende la connessione remota diretta (TCP hole punching) oppure indiretta (relayed)
-- **[src/platform](https://github.com/STRemote/STRemote/tree/master/src/platform)**: codice specifico della piattaforma
-- **[flutter](https://github.com/STRemote/STRemote/tree/master/flutter)**: codice Flutter per desktop e mobile
-- **[flutter/web/js](https://github.com/STRemote/STRemote/tree/master/flutter/web/js)**: JavaScript per client web Flutter
+- **[libs/hbb_common](https://github.com/rustdesk/STRemote/tree/master/libs/hbb_common)**: codec video, config, wrapper tcp/udp, protobuf, funzioni per il trasferimento file, e altre funzioni utili.
+- **[libs/scrap](https://github.com/rustdesk/STRemote/tree/master/libs/scrap)**: cattura dello schermo
+- **[libs/enigo](https://github.com/rustdesk/STRemote/tree/master/libs/enigo)**: controllo tastiera/mouse specifico della piattaforma
+- **[libs/clipboard](https://github.com/rustdesk/STRemote/tree/master/libs/clipboard)**: implementazione del copia e incolla dei file per Windows, Linux, macOS.
+- **[src/ui](https://github.com/rustdesk/STRemote/tree/master/src/ui)**: Sciter UI obsoleto (deprecato)
+- **[src/server](https://github.com/rustdesk/STRemote/tree/master/src/server)**: servizi audio/appunti/input/video e connessioni di rete
+- **[src/client.rs](https://github.com/rustdesk/STRemote/tree/master/src/client.rs)**: avvio di una connessione peer
+- **[src/rendezvous_mediator.rs](https://github.com/rustdesk/STRemote/tree/master/src/rendezvous_mediator.rs)**: comunica con [STRemote-server](https://github.com/rustdesk/STRemote-server), attende la connessione remota diretta (TCP hole punching) oppure indiretta (relayed)
+- **[src/platform](https://github.com/rustdesk/STRemote/tree/master/src/platform)**: codice specifico della piattaforma
+- **[flutter](https://github.com/rustdesk/STRemote/tree/master/flutter)**: codice Flutter per desktop e mobile
+- **[flutter/web/js](https://github.com/rustdesk/STRemote/tree/master/flutter/web/js)**: JavaScript per client web Flutter
 
 > [!Attenzione]
 > **Dichiarazione di non responsabilità per uso improprio:** <br>

@@ -453,7 +453,7 @@ class _DesktopHomePageState extends State<DesktopHomePage>
           closeButton: true,
           help: isToUpdate ? 'Changelog' : null,
           link: isToUpdate
-              ? 'https://github.com/STRemote/STRemote/releases/tag/${bind.mainGetNewVersion()}'
+              ? 'https://github.com/rustdesk/STRemote/releases/tag/${bind.mainGetNewVersion()}'
               : null);
     }
     if (systemError.isNotEmpty) {

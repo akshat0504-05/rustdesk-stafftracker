@@ -1181,7 +1181,7 @@ void msgBox(SessionID sessionId, String type, String title, String text,
     if (onSubmit != null) {
       onSubmit.call();
     } else {
-      // https://github.com/STRemote/STRemote/blob/5e9a31340b899822090a3731769ae79c6bf5f3e5/src/ui/common.tis#L263
+      // https://github.com/rustdesk/STRemote/blob/5e9a31340b899822090a3731769ae79c6bf5f3e5/src/ui/common.tis#L263
       if (!type.contains("custom") && desktopType != DesktopType.portForward) {
         closeConnection();
       }
@@ -2017,13 +2017,13 @@ Future<bool> restoreWindowPosition(WindowType type,
           await windowManager.center();
         }
         // For MacOS, the window is already centered by default.
-        // See https://github.com/STRemote/STRemote/blob/9b9276e7524523d7f667fefcd0694d981443df0e/flutter/macos/Runner/Base.lproj/MainMenu.xib#L333
+        // See https://github.com/rustdesk/STRemote/blob/9b9276e7524523d7f667fefcd0694d981443df0e/flutter/macos/Runner/Base.lproj/MainMenu.xib#L333
         // If `<windowPositionMask>` in `<window>` is not set, the window will be centered.
         break;
       default:
         // No need to change the position of a sub window if no position is saved,
         // since the default position is already centered.
-        // https://github.com/STRemote/STRemote/blob/317639169359936f7f9f85ef445ec9774218772d/flutter/lib/utils/multi_window_manager.dart#L163
+        // https://github.com/rustdesk/STRemote/blob/317639169359936f7f9f85ef445ec9774218772d/flutter/lib/utils/multi_window_manager.dart#L163
         break;
     }
     return true;
@@ -2080,7 +2080,7 @@ Future<bool> restoreWindowPosition(WindowType type,
             // E.g. There are two monitors, the left one is 100% DPI and the right one is 175% DPI.
             // The window belongs to the left monitor, but if it is moved a little to the right, it will belong to the right monitor.
             // After restoring, the size will be incorrect.
-            // See known issue in https://github.com/STRemote/STRemote/pull/9840
+            // See known issue in https://github.com/rustdesk/STRemote/pull/9840
             await windowManager.setSize(size,
                 ignoreDevicePixelRatio: _ignoreDevicePixelRatio);
           }
@@ -3366,7 +3366,7 @@ setNewConnectWindowFrame(int windowId, String peerId, int preSessionCount,
     WindowType windowType, int? display, Rect? screenRect) async {
   if (screenRect == null) {
     // Do not restore window position to new connection if there's a pre-session.
-    // https://github.com/STRemote/STRemote/discussions/8825
+    // https://github.com/rustdesk/STRemote/discussions/8825
     if (preSessionCount == 0) {
       await restoreWindowPosition(windowType,
           windowId: windowId, display: display, peerId: peerId);
@@ -3742,7 +3742,7 @@ Widget _buildPresetPasswordWarning() {
           style: TextStyle(
             color: Colors.red,
             fontSize:
-                18, // https://github.com/STRemote/STRemote-server-pro/issues/261
+                18, // https://github.com/rustdesk/STRemote-server-pro/issues/261
             fontWeight: FontWeight.bold,
           ),
         )).paddingOnly(bottom: 8),
@@ -3884,8 +3884,8 @@ bool whitelistNotEmpty() {
 // When we drag the blank tab bar (not the tab), the window will be dragged normally by adding the `onPanStart` handle.
 //
 // See the following code for more details:
-// https://github.com/STRemote/STRemote/blob/ce1dac3b8613596b4d8ae981275f9335489eb935/flutter/lib/desktop/widgets/tabbar_widget.dart#L385
-// https://github.com/STRemote/STRemote/blob/ce1dac3b8613596b4d8ae981275f9335489eb935/flutter/lib/desktop/widgets/tabbar_widget.dart#L399
+// https://github.com/rustdesk/STRemote/blob/ce1dac3b8613596b4d8ae981275f9335489eb935/flutter/lib/desktop/widgets/tabbar_widget.dart#L385
+// https://github.com/rustdesk/STRemote/blob/ce1dac3b8613596b4d8ae981275f9335489eb935/flutter/lib/desktop/widgets/tabbar_widget.dart#L399
 //
 // @platforms macos
 disableWindowMovable(int? windowId) {
@@ -4087,7 +4087,7 @@ String getConnectionText(bool secure, bool direct, String streamType) {
 
 String decode_http_response(http.Response resp) {
   try {
-    // https://github.com/STRemote/STRemote-server-pro/discussions/758
+    // https://github.com/rustdesk/STRemote-server-pro/discussions/758
     return utf8.decode(resp.bodyBytes, allowMalformed: true);
   } catch (e) {
     debugPrint('Failed to decode response as UTF-8: $e');

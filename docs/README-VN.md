@@ -8,22 +8,22 @@
   <a href="#file-structure">Structure</a> •
   <a href="#snapshot">Snapshot</a><br>
   [<a href="../README.md">English</a>] | [<a href="README-UA.md">Українська</a>] | [<a href="README-CS.md">česky</a>] | [<a href="README-ZH.md">中文</a>] | [<a href="README-HU.md">Magyar</a>] | [<a href="README-ES.md">Español</a>] | [<a href="README-FA.md">فارسی</a>] | [<a href="README-FR.md">Français</a>] | [<a href="README-DE.md">Deutsch</a>] | [<a href="README-PL.md">Polski</a>] | [<a href="README-ID.md">Indonesian</a>] | [<a href="README-FI.md">Suomi</a>] | [<a href="README-ML.md">മലയാളം</a>] | [<a href="README-JP.md">日本語</a>] | [<a href="README-NL.md">Nederlands</a>] | [<a href="README-IT.md">Italiano</a>] | [<a href="README-RU.md">Русский</a>] | [<a href="README-PTBR.md">Português (Brasil)</a>] | [<a href="README-EO.md">Esperanto</a>] | [<a href="README-KR.md">한국어</a>] | [<a href="README-AR.md">العربي</a>] | [<a href="README-GR.md">Ελληνικά</a>]<br>
-  <b>Chúng tôi rất hoan nghênh sự hỗ trợ của bạn trong việc dịch trang README, trang giao diện người dùng của STRemote - <a href="https://github.com/STRemote/STRemote/tree/master/src/lang">STRemote UI</a> và trang tài liệu của STRemote - <a href="https://github.com/STRemote/doc.STRemote.com">STRemote Doc</a> sang Tiếng Việt</b>
+  <b>Chúng tôi rất hoan nghênh sự hỗ trợ của bạn trong việc dịch trang README, trang giao diện người dùng của STRemote - <a href="https://github.com/rustdesk/STRemote/tree/master/src/lang">STRemote UI</a> và trang tài liệu của STRemote - <a href="https://github.com/rustdesk/doc.STRemote.com">STRemote Doc</a> sang Tiếng Việt</b>
 </p>
 
 Hãy trao đổi với chúng tôi qua: [Discord](https://discord.gg/nDceKgxnkV) | [Twitter](https://twitter.com/STRemote) | [Reddit](https://www.reddit.com/r/STRemote) | [YouTube](https://www.youtube.com/@STRemote)
 
 [![STRemote Server Pro](https://img.shields.io/badge/STRemote%20Server%20Pro-T%C3%ADnh%20N%C4%83ng%20N%C3%A2ng%20Cao-blue)](https://STRemote.com/pricing.html)
 
-STRemote là một phần mềm điểu khiển máy tính từ xa mã nguồn mở, được viết bằng Rust. Nó hoạt động ngay sau khi cài đặt, không yêu cầu cấu hình phức tạp. Bạn có toàn quyền kiểm soát với dữ liệu của mình mà không cần phải lo lắng về vấn đề bảo mật. Bạn có thể sử dụng máy chủ rendezvous/relay của chúng tôi hoặc [tự cài đặt máy chủ của riêng mình](https://STRemote.com/server) hay thậm chí [tự tạo máy chủ rendezvous/relay cho riêng bạn](https://github.com/STRemote/STRemote-server-demo).
+STRemote là một phần mềm điểu khiển máy tính từ xa mã nguồn mở, được viết bằng Rust. Nó hoạt động ngay sau khi cài đặt, không yêu cầu cấu hình phức tạp. Bạn có toàn quyền kiểm soát với dữ liệu của mình mà không cần phải lo lắng về vấn đề bảo mật. Bạn có thể sử dụng máy chủ rendezvous/relay của chúng tôi hoặc [tự cài đặt máy chủ của riêng mình](https://STRemote.com/server) hay thậm chí [tự tạo máy chủ rendezvous/relay cho riêng bạn](https://github.com/rustdesk/STRemote-server-demo).
 
 ![image](https://user-images.githubusercontent.com/71636191/171661982-430285f0-2e12-4b1d-9957-4a58e375304d.png)
 
 **STRemote** luôn hoan nghênh mọi đóng góp từ mọi người. Hãy xem tệp [`docs/CONTRIBUTING.md`](CONTRIBUTING.md) để bắt đầu. 
 
-[**FAQ**](https://github.com/STRemote/STRemote/wiki/FAQ)
-[**BINARY DOWNLOAD**](https://github.com/STRemote/STRemote/releases)
-[**NIGHTLY BUILD**](https://github.com/STRemote/STRemote/FAQreleases/tag/nightly)
+[**FAQ**](https://github.com/rustdesk/STRemote/wiki/FAQ)
+[**BINARY DOWNLOAD**](https://github.com/rustdesk/STRemote/releases)
+[**NIGHTLY BUILD**](https://github.com/rustdesk/STRemote/FAQreleases/tag/nightly)
 
 [<img src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png"
     alt="Get it on F-Droid"
@@ -31,7 +31,7 @@ STRemote là một phần mềm điểu khiển máy tính từ xa mã nguồn m
 
 ## Dependencies
 
-Phiên bản máy tính sử dụng __Flutter__ hoặc __Sciter__ (đã lỗi thời) cho giao diện người dùng (GUI). Hướng dẫn này chỉ áp dụng cho phiên bản Sciter, vì nó thân thiện và dễ bắt đầu hơn. Hãy kiểm tra [CI](https://github.com/STRemote/STRemote/blob/master/.github/workflows/flutter-build.yml) của chúng tôi để xây dựng phiên bản Flutter.
+Phiên bản máy tính sử dụng __Flutter__ hoặc __Sciter__ (đã lỗi thời) cho giao diện người dùng (GUI). Hướng dẫn này chỉ áp dụng cho phiên bản Sciter, vì nó thân thiện và dễ bắt đầu hơn. Hãy kiểm tra [CI](https://github.com/rustdesk/STRemote/blob/master/.github/workflows/flutter-build.yml) của chúng tôi để xây dựng phiên bản Flutter.
 
 Vui lòng tự tải thư viện `Sciter` về máy theo hướng dẫn cho từng hệ điều hành.
 
@@ -99,7 +99,7 @@ cd
 ```sh
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 source $HOME/.cargo/env
-git clone https://github.com/STRemote/STRemote
+git clone https://github.com/rustdesk/STRemote
 cd STRemote
 mkdir -p target/debug
 wget https://raw.githubusercontent.com/c-smile/sciter-sdk/master/bin.lnx/x64/libsciter-gtk.so
@@ -112,7 +112,7 @@ VCPKG_ROOT=$HOME/vcpkg cargo run
 Bắt đầu bằng cách sao chép repo này về máy tính của bạn và tạo Docker container:
 
 ```sh
-git clone https://github.com/STRemote/STRemote
+git clone https://github.com/rustdesk/STRemote
 cd STRemote
 docker build -t "STRemote-builder" .
 ```
@@ -139,16 +139,16 @@ Hãy đảm bảo rằng bạn đang chạy các lệnh này từ gốc của th
 
 ## Cấu trúc tệp tin
 
-- **[libs/hbb_common](https://github.com/STRemote/STRemote/tree/master/libs/hbb_common)**: video codec, cấu hình, tcp/udp wrapper, protobuf, fs functions để truyền file, và một số hàm tiện ích khác
-- **[libs/scrap](https://github.com/STRemote/STRemote/tree/master/libs/scrap)**: ghi lại màn hình
-- **[libs/enigo](https://github.com/STRemote/STRemote/tree/master/libs/enigo)**: điều khiển máy tính/chuột trên các nền tảng khác nhau
-- **[src/ui](https://github.com/STRemote/STRemote/tree/master/src/ui)**: giao diện người dùng
-- **[src/server](https://github.com/STRemote/STRemote/tree/master/src/server)**: các dịch vụ âm thanh, clipboard, đầu vào, video và các kết nối mạng
-- **[src/client.rs](https://github.com/STRemote/STRemote/tree/master/src/client.rs)**: bắt đầu kết nối với một peer
-- **[src/rendezvous_mediator.rs](https://github.com/STRemote/STRemote/tree/master/src/rendezvous_mediator.rs)**: giao tiếp với [STRemote-server](https://github.com/STRemote/STRemote-server), đợi kết nối trực tiếp (TCP hole punching) hoặc kết nối được chuyển tiếp.
-- **[src/platform](https://github.com/STRemote/STRemote/tree/master/src/platform)**: mã nguồn riêng cho mỗi nền tảng
-- **[flutter](https://github.com/STRemote/STRemote/tree/master/flutter)**: Mã Flutter dành máy tính và điện thoại
-- **[flutter/web/js](https://github.com/STRemote/STRemote/tree/master/flutter/web/js)**: Mã JavaScript dành cho giao diện trên web bằng Flutter
+- **[libs/hbb_common](https://github.com/rustdesk/STRemote/tree/master/libs/hbb_common)**: video codec, cấu hình, tcp/udp wrapper, protobuf, fs functions để truyền file, và một số hàm tiện ích khác
+- **[libs/scrap](https://github.com/rustdesk/STRemote/tree/master/libs/scrap)**: ghi lại màn hình
+- **[libs/enigo](https://github.com/rustdesk/STRemote/tree/master/libs/enigo)**: điều khiển máy tính/chuột trên các nền tảng khác nhau
+- **[src/ui](https://github.com/rustdesk/STRemote/tree/master/src/ui)**: giao diện người dùng
+- **[src/server](https://github.com/rustdesk/STRemote/tree/master/src/server)**: các dịch vụ âm thanh, clipboard, đầu vào, video và các kết nối mạng
+- **[src/client.rs](https://github.com/rustdesk/STRemote/tree/master/src/client.rs)**: bắt đầu kết nối với một peer
+- **[src/rendezvous_mediator.rs](https://github.com/rustdesk/STRemote/tree/master/src/rendezvous_mediator.rs)**: giao tiếp với [STRemote-server](https://github.com/rustdesk/STRemote-server), đợi kết nối trực tiếp (TCP hole punching) hoặc kết nối được chuyển tiếp.
+- **[src/platform](https://github.com/rustdesk/STRemote/tree/master/src/platform)**: mã nguồn riêng cho mỗi nền tảng
+- **[flutter](https://github.com/rustdesk/STRemote/tree/master/flutter)**: Mã Flutter dành máy tính và điện thoại
+- **[flutter/web/js](https://github.com/rustdesk/STRemote/tree/master/flutter/web/js)**: Mã JavaScript dành cho giao diện trên web bằng Flutter
 
 ## Snapshot
 

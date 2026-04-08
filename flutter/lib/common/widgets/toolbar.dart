@@ -156,7 +156,7 @@ List<TTextMenu> toolbarControls(BuildContext context, String id, FFI ffi) {
         onPressed: () => ffi.cursorModel.reset()));
   }
 
-  // https://github.com/STRemote/STRemote/pull/9731
+  // https://github.com/rustdesk/STRemote/pull/9731
   // Does not work for connection established by "accept".
   connectWithToken(
       {bool isFileTransfer = false,

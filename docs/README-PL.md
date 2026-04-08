@@ -15,17 +15,17 @@ Porozmawiaj z nami na: [Discord](https://discord.gg/nDceKgxnkV) | [Twitter](http
 
 ## O projekcie
 
-STRemote to wieloplatformowe oprogramowanie do zdalnego pulpitu, napisane w języku Rust, zaprojektowane z myślą o prostocie wdrożenia, bezpieczeństwie i pełnej kontroli użytkownika nad danymi. Aplikacja działa od razu po uruchomieniu i nie wymaga skomplikowanej konfiguracji. Możesz skorzystać z naszego darmowego serwera publicznego, [skonfigurować własny](https://STRemote.com/server), lub [napisać własny serwer](https://github.com/STRemote/STRemote-server-demo).
+STRemote to wieloplatformowe oprogramowanie do zdalnego pulpitu, napisane w języku Rust, zaprojektowane z myślą o prostocie wdrożenia, bezpieczeństwie i pełnej kontroli użytkownika nad danymi. Aplikacja działa od razu po uruchomieniu i nie wymaga skomplikowanej konfiguracji. Możesz skorzystać z naszego darmowego serwera publicznego, [skonfigurować własny](https://STRemote.com/server), lub [napisać własny serwer](https://github.com/rustdesk/STRemote-server-demo).
 
 ![image](https://user-images.githubusercontent.com/71636191/171661982-430285f0-2e12-4b1d-9957-4a58e375304d.png) 
 
 STRemote zaprasza do współpracy każdego. Zobacz [`docs/CONTRIBUTING-PL.md`](CONTRIBUTING-PL.md) pomoc w uruchomieniu programu.
 
-[**PYTANIA I ODPOWIEDZI (FAQ)**](https://github.com/STRemote/STRemote/wiki/FAQ)
+[**PYTANIA I ODPOWIEDZI (FAQ)**](https://github.com/rustdesk/STRemote/wiki/FAQ)
 
-[**POBIERANIE BINARIÓW**](https://github.com/STRemote/STRemote/releases)
+[**POBIERANIE BINARIÓW**](https://github.com/rustdesk/STRemote/releases)
 
-[**WERSJE TESTOWE (NIGHTLY)**](https://github.com/STRemote/STRemote/releases/tag/nightly)
+[**WERSJE TESTOWE (NIGHTLY)**](https://github.com/rustdesk/STRemote/releases/tag/nightly)
 
 [<img src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png"
     alt="Get it on F-Droid"
@@ -106,7 +106,7 @@ cd
 ```sh
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 source $HOME/.cargo/env
-git clone https://github.com/STRemote/STRemote
+git clone https://github.com/rustdesk/STRemote
 cd STRemote
 mkdir -p target/debug
 wget https://raw.githubusercontent.com/c-smile/sciter-sdk/master/bin.lnx/x64/libsciter-gtk.so
@@ -119,7 +119,7 @@ cargo run
 Rozpocznij od sklonowania repozytorium i stworzenia kontenera docker:
 
 ```sh
-git clone https://github.com/STRemote/STRemote
+git clone https://github.com/rustdesk/STRemote
 cd STRemote
 docker build -t "STRemote-builder" .
 ```
@@ -146,16 +146,16 @@ Upewnij się, że uruchamiasz te polecenia z katalogu głównego repozytorium ST
 
 ## Struktura plików
 
-- **[libs/hbb_common](https://github.com/STRemote/STRemote/tree/master/libs/hbb_common)**: kodek wideo, konfiguracja, obsługa tcp/udp, protobuf, funkcje systemu plików do transferu plików i kilka innych funkcji użytkowych
-- **[libs/scrap](https://github.com/STRemote/STRemote/tree/master/libs/scrap)**: przechwytywanie ekranu
-- **[libs/enigo](https://github.com/STRemote/STRemote/tree/master/libs/enigo)**: specyficzne dla danej platformy sterowanie klawiaturą/myszą
-- **[src/ui](https://github.com/STRemote/STRemote/tree/master/src/ui)**: GUI
-- **[src/server](https://github.com/STRemote/STRemote/tree/master/src/server)**: audio/schowek/wejście(input)/wideo oraz połączenia sieciowe
-- **[src/client.rs](https://github.com/STRemote/STRemote/tree/master/src/client.rs)**: uruchamia połączenie bezpośrednie
-- **[src/rendezvous_mediator.rs](https://github.com/STRemote/STRemote/tree/master/src/rendezvous_mediator.rs)**: Komunikacja z [STRemote-server](https://github.com/STRemote/STRemote-server), czekanie na bezpośrednie (odpytywanie TCP) lub przekazywane połączenie
-- **[src/platform](https://github.com/STRemote/STRemote/tree/master/src/platform)**: kod specyficzny dla danej platformy
-- **[flutter](https://github.com/STRemote/STRemote/tree/master/flutter)**: kod Flutter dla urządzeń mobilnych
-- **[flutter/web/js](https://github.com/STRemote/STRemote/tree/master/flutter/web/js)**: JavaScript dla Flutter - klient web
+- **[libs/hbb_common](https://github.com/rustdesk/STRemote/tree/master/libs/hbb_common)**: kodek wideo, konfiguracja, obsługa tcp/udp, protobuf, funkcje systemu plików do transferu plików i kilka innych funkcji użytkowych
+- **[libs/scrap](https://github.com/rustdesk/STRemote/tree/master/libs/scrap)**: przechwytywanie ekranu
+- **[libs/enigo](https://github.com/rustdesk/STRemote/tree/master/libs/enigo)**: specyficzne dla danej platformy sterowanie klawiaturą/myszą
+- **[src/ui](https://github.com/rustdesk/STRemote/tree/master/src/ui)**: GUI
+- **[src/server](https://github.com/rustdesk/STRemote/tree/master/src/server)**: audio/schowek/wejście(input)/wideo oraz połączenia sieciowe
+- **[src/client.rs](https://github.com/rustdesk/STRemote/tree/master/src/client.rs)**: uruchamia połączenie bezpośrednie
+- **[src/rendezvous_mediator.rs](https://github.com/rustdesk/STRemote/tree/master/src/rendezvous_mediator.rs)**: Komunikacja z [STRemote-server](https://github.com/rustdesk/STRemote-server), czekanie na bezpośrednie (odpytywanie TCP) lub przekazywane połączenie
+- **[src/platform](https://github.com/rustdesk/STRemote/tree/master/src/platform)**: kod specyficzny dla danej platformy
+- **[flutter](https://github.com/rustdesk/STRemote/tree/master/flutter)**: kod Flutter dla urządzeń mobilnych
+- **[flutter/web/js](https://github.com/rustdesk/STRemote/tree/master/flutter/web/js)**: JavaScript dla Flutter - klient web
 
 ## Zrzuty ekranu
 

@@ -11,8 +11,8 @@
 #
 # It accepts the following arguments:
 #
-# - versionName from https://github.com/STRemote/STRemote/releases/download/fdroid-version/STRemote-version.txt
-# - versionCode from https://github.com/STRemote/STRemote/releases/download/fdroid-version/STRemote-version.txt
+# - versionName from https://github.com/rustdesk/STRemote/releases/download/fdroid-version/STRemote-version.txt
+# - versionCode from https://github.com/rustdesk/STRemote/releases/download/fdroid-version/STRemote-version.txt
 # - Android architecture to build APK for: armeabi-v7a arm64-v8av x86 x86_64
 # - The build step to execute:
 #

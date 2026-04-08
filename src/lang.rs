@@ -190,7 +190,7 @@ pub fn translate_locale(name: String, locale: &str) -> String {
                 if !app_name.contains("STRemote") {
                     s = s.replace("STRemote", &app_name);
                 } else {
-                    // https://github.com/STRemote/STRemote-server-pro/issues/845
+                    // https://github.com/rustdesk/STRemote-server-pro/issues/845
                     // If app_name contains "STRemote" (e.g., "STRemote-Admin"), we need to avoid
                     // replacing "STRemote" within the already-substituted app_name, which would
                     // cause duplication like "STRemote-Admin" -> "STRemote-Admin-Admin".

@@ -39,13 +39,13 @@
     <color type="primary" scheme_preference="dark">#0160ee</color>
   </branding>
   <url type="homepage">https://STRemote.com</url>
-  <url type="bugtracker">https://github.com/STRemote/STRemote/issues</url>
-  <url type="faq">https://github.com/STRemote/STRemote/wiki/FAQ</url>
+  <url type="bugtracker">https://github.com/rustdesk/STRemote/issues</url>
+  <url type="faq">https://github.com/rustdesk/STRemote/wiki/FAQ</url>
   <url type="help">https://STRemote.com/docs</url>
   <url type="donation">https://ko-fi.com/STRemote</url>
-  <url type="vcs-browser">https://github.com/STRemote/STRemote</url>
-  <url type="translate">https://github.com/STRemote/STRemote/tree/master/src/lang</url>
-  <url type="contribute">https://github.com/STRemote/STRemote/blob/master/docs/CONTRIBUTING.md</url>
+  <url type="vcs-browser">https://github.com/rustdesk/STRemote</url>
+  <url type="translate">https://github.com/rustdesk/STRemote/tree/master/src/lang</url>
+  <url type="contribute">https://github.com/rustdesk/STRemote/blob/master/docs/CONTRIBUTING.md</url>
   <url type="contact">https://STRemote.com/docs/en/technical-support</url>
   <requires>
     <display_length compare="ge">600</display_length>

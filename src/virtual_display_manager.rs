@@ -1,7 +1,7 @@
 use hbb_common::{bail, platform::windows::is_windows_version_or_greater, ResultType};
 
 // This string is defined here.
-//  https://github.com/STRemote-org/STRemoteIddDriver/blob/b370aad3f50028b039aad211df60c8051c4a64d6/STRemoteIddDriver/STRemoteIddDriver.inf#LL73C1-L73C40
+//  https://github.com/rustdesk-org/STRemoteIddDriver/blob/b370aad3f50028b039aad211df60c8051c4a64d6/STRemoteIddDriver/STRemoteIddDriver.inf#LL73C1-L73C40
 pub const STRemote_IDD_DEVICE_STRING: &'static str = "STRemoteIddDriver Device\0";
 pub const AMYUNI_IDD_DEVICE_STRING: &'static str = "USB Mobile Monitor Virtual Display\0";
 

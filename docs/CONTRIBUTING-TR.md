@@ -24,7 +24,7 @@ Daha spesifik git talimatları için, [GitHub iş akışı 101](https://github.c
 
 ## Davranış
 
-https://github.com/STRemote/STRemote/blob/master/docs/CODE_OF_CONDUCT-TR.md
+https://github.com/rustdesk/STRemote/blob/master/docs/CODE_OF_CONDUCT-TR.md
 
 ## İletişim
 

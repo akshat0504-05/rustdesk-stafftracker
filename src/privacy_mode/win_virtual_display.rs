@@ -85,7 +85,7 @@ impl PrivacyModeImpl {
         }
     }
 
-    // mainly from https://github.com/STRemote-org/STRemote/blob/44c3a52ca8502cf53b58b59db130611778d34dbe/libs/scrap/src/dxgi/mod.rs#L365
+    // mainly from https://github.com/rustdesk-org/STRemote/blob/44c3a52ca8502cf53b58b59db130611778d34dbe/libs/scrap/src/dxgi/mod.rs#L365
     fn set_displays(&mut self) {
         self.displays.clear();
         self.virtual_displays.clear();
@@ -410,7 +410,7 @@ impl PrivacyModeImpl {
         if is_virtual_display_added {
             self.restore_plug_out_monitor();
         } else {
-            // https://github.com/STRemote/STRemote/pull/12114#issuecomment-2983054370
+            // https://github.com/rustdesk/STRemote/pull/12114#issuecomment-2983054370
             // No virtual displays added, we need to change the display combination to force the display settings to be reloaded.
             // This function changes the user behavior of the virtual displays.
             // But it makes the privacy mode more stable.

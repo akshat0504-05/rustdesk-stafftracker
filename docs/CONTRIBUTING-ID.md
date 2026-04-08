@@ -24,7 +24,7 @@ Untuk instruksi Git yang lebih lanjut, cek disini [GitHub workflow 101](https://
 
 ## Tindakan
 
-<https://github.com/STRemote/STRemote/blob/master/docs/CODE_OF_CONDUCT-ID.md>
+<https://github.com/rustdesk/STRemote/blob/master/docs/CODE_OF_CONDUCT-ID.md>
 
 ## Komunikasi
 

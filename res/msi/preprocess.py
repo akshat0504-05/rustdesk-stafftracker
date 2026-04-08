@@ -27,15 +27,15 @@ g_arpsystemcomponent = {
     },
     "Contact": {
         "msi": "ARPCONTACT",
-        "v": "https://github.com/STRemote/STRemote",
+        "v": "https://github.com/rustdesk/STRemote",
     },
     "HelpLink": {
         "msi": "ARPHELPLINK",
-        "v": "https://github.com/STRemote/STRemote/issues/",
+        "v": "https://github.com/rustdesk/STRemote/issues/",
     },
     "ReadMe": {
         "msi": "ARPREADME",
-        "v": "https://github.com/STRemote/STRemote",
+        "v": "https://github.com/rustdesk/STRemote",
     },
 }
 

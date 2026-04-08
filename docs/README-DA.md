@@ -6,18 +6,18 @@
   <a href="#filstruktur">Filstruktur</a> •
   <a href="#skærmbilleder">Skærmbilleder</a><br>
   [<a href="../README.md">English</a>] | [<a href="README-UA.md">Українська</a>] | [<a href="README-CS.md">česky</a>] | [<a href="README-ZH.md">中文</a>] | [<a href="README-HU.md">Magyar</a>] | [<a href="README-ES.md">Español</a>] | [<a href="README-FA.md">فارسی</a>] | [<a href="README-FR.md">Français</a>] | [<a href="README-DE.md">Deutsch</a>] | [<a href="README-PL.md">Polski</a>] | [<a href="README-ID.md">Indonesian</a>] | [<a href="README-FI.md">Suomi</a>] | [<a href="README-ML.md">മലയാളം</a>] | [<a href="README-JP.md">日本語</a>] | [<a href="README-NL.md">Nederlands</a>] | [<a href="README-IT.md">Italiano</a>] | [<a href="README-RU.md">Русский</a>] | [<a href="README-PTBR.md">Português (Brasil)</a>] | [<a href="README-EO.md">Esperanto</a>] | [<a href="README-KR.md">한국어</a>] | [<a href="README-AR.md">العربي</a>] | [<a href="README-VN.md">Tiếng Việt</a>] | [<a href="README-GR.md">Ελληνικά</a>]<br>
-  <b>Vi har brug for din hjælp til at oversætte denne README, <a href="https://github.com/STRemote/STRemote/tree/master/src/lang">STRemote UI</a> og <a href=" https://github.com/STRemote/doc.STRemote.com">Dokument</a> til dit modersmål</b>
+  <b>Vi har brug for din hjælp til at oversætte denne README, <a href="https://github.com/rustdesk/STRemote/tree/master/src/lang">STRemote UI</a> og <a href=" https://github.com/rustdesk/doc.STRemote.com">Dokument</a> til dit modersmål</b>
 </p>
 
 Chat med os: [Discord](https://discord.gg/nDceKgxnkV) | [Twitter](https://twitter.com/STRemote) | [Reddit](https://www.reddit.com/r/STRemote) | [YouTube](https://www.youtube.com/@STRemote)
 
 [![STRemote Server Pro](https://img.shields.io/badge/STRemote%20Server%20Pro-Avancerede%20Funktioner-blue)](https://STRemote.com/pricing.html)
 
-Endnu en fjernskrivebordssoftware, skrevet i Rust. Fungerer ud af æsken, ingen konfiguration påkrævet. Du har fuld kontrol over dine data uden bekymringer om sikkerhed. Du kan bruge vores rendezvous/relay-server, [opsætte din egen](https://STRemote.com/server), eller [skrive din egen rendezvous/relay-server](https://github.com/STRemote/STRemote- server-demo).
+Endnu en fjernskrivebordssoftware, skrevet i Rust. Fungerer ud af æsken, ingen konfiguration påkrævet. Du har fuld kontrol over dine data uden bekymringer om sikkerhed. Du kan bruge vores rendezvous/relay-server, [opsætte din egen](https://STRemote.com/server), eller [skrive din egen rendezvous/relay-server](https://github.com/rustdesk/STRemote- server-demo).
 
 STRemote hilser bidrag fra alle velkommen. Se [`docs/CONTRIBUTING.md`](CONTRIBUTING.md) for at få hjælp til at komme i gang.
 
-[**PROGRAM DOWNLOAD**](https://github.com/STRemote/STRemote/releases)
+[**PROGRAM DOWNLOAD**](https://github.com/rustdesk/STRemote/releases)
 
 ## Afhængigheder
 
@@ -92,7 +92,7 @@ cd
 ```sh
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 source $HOME/.cargo/env
-git clone https://github.com/STRemote/STRemote
+git clone https://github.com/rustdesk/STRemote
 cd STRemote
 mkdir -p target/debug
 wget https://raw.githubusercontent.com/c-smile/sciter-sdk/master/bin.lnx/x64/libsciter-gtk.so
@@ -103,7 +103,7 @@ cargo run
 ## Sådan bygger du med Docker
 
 ```sh
-git clone https://github.com/STRemote/STRemote
+git clone https://github.com/rustdesk/STRemote
 cd STRemote
 docker build -t "STRemote-builder" .
 ```
@@ -129,14 +129,14 @@ Sørg for, at du kører disse kommandoer fra roden af STRemote-lageret, ellers k
 
 ## Filstruktur
 
-- **[libs/hbb_common](https://github.com/STRemote/STRemote/tree/master/libs/hbb_common)**: video codec, config, tcp/udp wrapper, protobuf, fs funktioner til filoverførsel og nogle andre hjælpefunktioner
-- **[libs/scrap](https://github.com/STRemote/STRemote/tree/master/libs/scrap)**: Skærmbillede
-- **[libs/enigo](https://github.com/STRemote/STRemote/tree/master/libs/enigo)**: platform specifik tastatur/mus kontrol
-- **[src/ui](https://github.com/STRemote/STRemote/tree/master/src/ui)**: GUI
-- **[src/server](https://github.com/STRemote/STRemote/tree/master/src/server)**: lyd/udklipsholder/input/videotjenester og netværksforbindelser
-- **[src/client.rs](https://github.com/STRemote/STRemote/tree/master/src/client.rs)**: starte en peer-forbindelse
-- **[src/rendezvous_mediator.rs](https://github.com/STRemote/STRemote/tree/master/src/rendezvous_mediator.rs)**: Kommuniker med [STRemote-server](https://github.com/STRemote/STRemote-server), vent på direkte fjernforbindelse (TCP-hulning) eller relæforbindelse
-- **[src/platform](https://github.com/STRemote/STRemote/tree/master/src/platform)**: Javascript til Flutter webklient
+- **[libs/hbb_common](https://github.com/rustdesk/STRemote/tree/master/libs/hbb_common)**: video codec, config, tcp/udp wrapper, protobuf, fs funktioner til filoverførsel og nogle andre hjælpefunktioner
+- **[libs/scrap](https://github.com/rustdesk/STRemote/tree/master/libs/scrap)**: Skærmbillede
+- **[libs/enigo](https://github.com/rustdesk/STRemote/tree/master/libs/enigo)**: platform specifik tastatur/mus kontrol
+- **[src/ui](https://github.com/rustdesk/STRemote/tree/master/src/ui)**: GUI
+- **[src/server](https://github.com/rustdesk/STRemote/tree/master/src/server)**: lyd/udklipsholder/input/videotjenester og netværksforbindelser
+- **[src/client.rs](https://github.com/rustdesk/STRemote/tree/master/src/client.rs)**: starte en peer-forbindelse
+- **[src/rendezvous_mediator.rs](https://github.com/rustdesk/STRemote/tree/master/src/rendezvous_mediator.rs)**: Kommuniker med [STRemote-server](https://github.com/rustdesk/STRemote-server), vent på direkte fjernforbindelse (TCP-hulning) eller relæforbindelse
+- **[src/platform](https://github.com/rustdesk/STRemote/tree/master/src/platform)**: Javascript til Flutter webklient
 
 ## Skærmbilleder
 

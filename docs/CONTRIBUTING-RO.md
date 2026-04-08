@@ -24,7 +24,7 @@ Pentru instrucțiuni specifice git, vezi [GitHub workflow 101](https://github.co
 
 ## Conduită
 
-[Codul de Conduită STRemote](https://github.com/STRemote/STRemote/blob/master/docs/CODE_OF_CONDUCT.md)
+[Codul de Conduită STRemote](https://github.com/rustdesk/STRemote/blob/master/docs/CODE_OF_CONDUCT.md)
 
 ## Comunicare
 
