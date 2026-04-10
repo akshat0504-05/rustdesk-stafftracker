@@ -314,7 +314,7 @@ jobs:
           submodules: recursive
 
       - name: Install LLVM and Clang
-        uses: STRemote-org/install-llvm-action-32bit@master
+        uses: rustdesk-org/install-llvm-action-32bit@master
         with:
           version: ${{ env.LLVM_VERSION }}
 
@@ -1409,7 +1409,7 @@ jobs:
           name: bridge-artifact
           path: ./
 
-      - uses: STRemote-org/run-on-arch-action@amd64-support
+      - uses: rustdesk-org/run-on-arch-action@amd64-support
         name: Build STRemote
         id: vcpkg
         if: matrix.job.arch == 'x86_64' || env.UPLOAD_ARTIFACT == 'true'
@@ -1611,7 +1611,7 @@ jobs:
 
       - name: Build archlinux package
         if: matrix.job.arch == 'x86_64' && env.UPLOAD_ARTIFACT == 'true'
-        uses: STRemote-org/arch-makepkg-action@master
+        uses: rustdesk-org/arch-makepkg-action@master
         with:
           packages:
           scripts: |
@@ -1693,7 +1693,7 @@ jobs:
           RUST_TOOLCHAIN_VERSION=$(cargo --version | awk '{print $2}')
           echo "RUST_TOOLCHAIN_VERSION=$RUST_TOOLCHAIN_VERSION" >> $GITHUB_ENV
 
-      - uses: STRemote-org/run-on-arch-action@amd64-support
+      - uses: rustdesk-org/run-on-arch-action@amd64-support
         name: Build STRemote sciter binary for ${{ matrix.job.arch }}
         id: vcpkg
         with:
@@ -1953,7 +1953,7 @@ jobs:
         run: |
           mv STRemote-${{ env.VERSION }}-${{ matrix.job.arch }}${{ matrix.job.suffix }}.deb flatpak/STRemote.deb
 
-      - uses: STRemote-org/run-on-arch-action@amd64-support
+      - uses: rustdesk-org/run-on-arch-action@amd64-support
         name: Build STRemote flatpak package for ${{ matrix.job.arch }}
         id: flatpak
         with:
