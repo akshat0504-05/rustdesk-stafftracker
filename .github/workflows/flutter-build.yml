@@ -1,6 +1,7 @@
 name: Build the flutter version of the STRemote
 
 on:
+  workflow_dispatch:
   workflow_call:
     inputs:
       upload-artifact:
@@ -9,7 +10,6 @@ on:
       upload-tag:
         type: string
         default: "nightly"
-
 # NOTE: F-Droid builder script 'flutter/build_fdroid.sh' reads environment
 # variables from this workflow!
 #
