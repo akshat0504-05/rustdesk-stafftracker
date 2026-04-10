@@ -51,8 +51,8 @@ jobs:
   generate-bridge:
     uses: ./.github/workflows/bridge.yml
 
-  build-STRemoteTempTopMostWindow:
-    uses: ./.github/workflows/third-party-STRemoteTempTopMostWindow.yml
+  build-RustDeskTempTopMostWindow:
+    uses: ./.github/workflows/third-party-RustDeskTempTopMostWindow.yml
     with:
       upload-artifact: ${{ inputs.upload-artifact }}
       target: windows-2022
@@ -64,7 +64,7 @@ jobs:
 
   build-for-windows-flutter:
     name: ${{ matrix.job.target }}
-    needs: [build-STRemoteTempTopMostWindow, generate-bridge]
+    needs: [build-RustDeskTempTopMostWindow, generate-bridge]
     runs-on: ${{ matrix.job.os }}
     strategy:
       fail-fast: false
@@ -219,7 +219,7 @@ jobs:
             ls -l ./libs/portable/Runner.res;
           fi
 
-      - name: Download STRemoteTempTopMostWindow artifacts
+      - name: Download RustDeskTempTopMostWindow artifacts
         uses: actions/download-artifact@master
         if: ${{ inputs.upload-artifact }}
         with:
